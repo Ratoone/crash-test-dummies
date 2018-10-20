@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <title>GIBS Google Example - Web Mercator (EPSG:3857)</title>
+
+  <link rel='stylesheet' href='{{ url_for('static', filename='example.css') }}' />
+
+  <!-- Obtain your own API key at:
+             https://code.google.com/apis/console -->
+  <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBXJQ9KUyxq3WAaU8InwzUbWi1GMCiShco'>
+  </script>
+  <script src='{{ url_for('static', filename='maps.js') }}'></script>
+</head>
+
+<body>
+  <div id='map'></div>
+</body>
+
+</html>
